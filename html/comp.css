@@ -1,0 +1,76 @@
+                                                                /* 25D */
+.first-p {
+    font-weight: bold;
+    color: purple;
+    font-size: 10px;
+    float: right;
+}
+                                                                /* 23D, 23E, 22C-2, 25C  */
+.section-1 {
+    width: vw;
+    height: 75px;
+    background-color: lightblue;
+    position: fixed;
+} 
+                                                                /* 23F */
+.footer {
+    background-image: url("https://cdn.pastemagazine.com/www/system/images/photo_albums/ron-swanson-memes/large/the-many-faces-of-ron-swanson-3451-1307733644-47.jpg?1384968217");
+    height: 165px;
+    color: darkred;
+}
+
+.parentdiv {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+}
+                                                                /* 22C-1, 24C, 24F, 24D, 24E, 25F */
+#div1 {
+    background-color: red;
+    height: 25px;
+    width: 25;
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+    padding-top: 35px;
+
+}
+                                                                /* 27C, 27D, 27E, 27F, 27G */
+.div2 {
+    background-color: yellow;
+    height: 8px;
+    width: 8px;    
+}
+                                                                /* 22C-3 */
+ul > span {
+    background-color: pink;
+    height: 10px;
+    width: 10px;
+}
+
+li {
+    list-style-type: disc;
+}
+                                                                /* 22C-4 */
+li li {
+    list-style-type: circle;
+    background-color: orange;
+
+}
+                                                                /* 22C-5 */
+ul + h4 {
+    background-color: lightgreen;
+    height: 25px;
+    width: vw;
+}
